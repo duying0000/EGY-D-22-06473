@@ -6,8 +6,8 @@ import pandas as pd
 
 
 
-dir1 = 'F:/Awork-2022-5-6/SOC/2018-t'
-dir2 = 'F:/Awork-2022-5-6/SOC/2018-t'
+dir1 = '/SOC/2018'
+dir2 = 'SOC/2018'
 
 f_lai = os.listdir(dir1)
 

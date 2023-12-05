@@ -66,6 +66,8 @@ RMSE = np.sqrt(mse)
 s1 = [r2_test, mse, mae, RMSE]
 print(s1)
 
+model.save('model.h5')
+
 mse = h1.history['mse']
 val_mse = h1.history['val_mse']
 mae = h1.history['mae']
